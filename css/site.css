@@ -271,3 +271,22 @@ a{color:var(--spine);}
 @media (prefers-reduced-motion:reduce){
   .btn,.film__scrim,.film__play{transition:none;}
 }
+
+/* ------------------------------------------------------------ the review */
+.review{padding:62px 28px 0;}
+.review__wrap{max-width:620px;margin:0 auto;}
+.review__eyebrow{text-align:left;}
+.review__quote{
+  font-family:var(--sans);font-weight:300;
+  font-size:20px;line-height:1.68;color:var(--ink);
+  margin:0;text-indent:-0.42em;
+}
+.review__cite{
+  display:block;margin:20px 0 0;font-style:normal;
+  font-size:12px;letter-spacing:.26em;text-transform:uppercase;color:var(--stone);
+}
+@media (max-width:560px){
+  .review{padding-top:46px;}
+  .review__quote{font-size:18px;}
+}
+
